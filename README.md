@@ -1,7 +1,6 @@
 # Heart-Disease-Risk-Analyzer
 Interactive machine learning dashboard for heart disease risk prediction using Decision Tree and Naive Bayes models, with data visualization, model evaluation, and what-if analysis.
 
-
 ❤️ Heart Disease Risk Dashboard
 An interactive Machine Learning-based Heart Disease Risk Dashboard built with Python and Streamlit. The application allows users to enter patient health information, estimate heart disease risk using multiple machine learning models, explore important health attributes, and analyze model performance through interactive visualizations.
 
