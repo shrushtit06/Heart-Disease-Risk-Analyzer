@@ -4,8 +4,10 @@ Interactive machine learning dashboard for heart disease risk prediction using D
 
 ❤️ Heart Disease Risk Dashboard
 An interactive Machine Learning-based Heart Disease Risk Dashboard built with Python and Streamlit. The application allows users to enter patient health information, estimate heart disease risk using multiple machine learning models, explore important health attributes, and analyze model performance through interactive visualizations.
+
 ⚠️ Disclaimer: This project is intended for educational and demonstration purposes only. It is not a medical diagnostic tool and should not be used for clinical decision-making.
 ________________________________________
+
 📌 Project Overview
 Heart disease is influenced by multiple factors such as age, blood pressure, cholesterol, chest pain, maximum heart rate, and exercise-induced angina.
 This project uses a heart disease dataset to build machine learning models that estimate the probability of heart disease based on a patient's attributes.
@@ -18,6 +20,8 @@ The project combines:
 •	🔍 Model Interpretability
 •	📉 Model Performance Evaluation
 The dashboard provides both prediction and exploration, allowing users to understand not only the predicted risk but also how different attributes influence the model's prediction.
+
+
 ________________________________________
 ✨ Features
 🩺 1. Heart Disease Risk Prediction
@@ -33,11 +37,14 @@ Users can enter a patient's information including:
 •	Exercise-Induced Angina
 •	Oldpeak
 •	ST Slope
+
 The application then predicts the probability of heart disease using two machine learning models:
 •	Decision Tree
 •	Naive Bayes
 The dashboard also provides an average risk estimate from both models.
 ________________________________________
+
+
 🔬 2. What-If Analysis
 The What-If Explorer allows users to change one patient attribute while keeping the remaining attributes constant.
 For example, users can investigate how changing:
@@ -49,10 +56,14 @@ For example, users can investigate how changing:
 affects the predicted risk.
 This provides an intuitive way to understand how model predictions respond to changes in individual attributes.
 ________________________________________
+
+
 🌳 3. Decision Tree Explanation
 The dashboard displays the decision rules followed by the Decision Tree for a particular patient.
 This makes the prediction more interpretable by showing the conditions that contributed to the final classification.
 ________________________________________
+
+
 📊 4. Attribute Explorer
 The dashboard provides interactive visualizations for exploring relationships between patient attributes and heart disease.
 It includes:
@@ -64,11 +75,15 @@ It includes:
 •	Correlation analysis
 •	Correlation heatmaps
 ________________________________________
+
+
 🧠 5. Feature Importance
 Permutation importance is used to identify which attributes the machine learning models rely on most.
 The dashboard shows how much the model's ROC-AUC score changes when individual attributes are randomly shuffled.
 A larger decrease indicates that the attribute has greater importance to the model.
 ________________________________________
+
+
 ⚙️ 6. Model Performance
 The application evaluates both machine learning models using a 20% stratified hold-out test set.
 The following metrics are displayed:
@@ -82,6 +97,8 @@ The dashboard also provides:
 •	Confusion matrices
 •	Model comparison
 ________________________________________
+
+
 🗂️ 7. Dataset Explorer
 Users can view the cleaned dataset directly within the application.
 The dashboard also provides:
@@ -90,6 +107,8 @@ The dashboard also provides:
 •	Cleaned data
 •	CSV download functionality
 ________________________________________
+
+
 🤖 Machine Learning Models
 Decision Tree
 A Decision Tree classifier is used to create interpretable rule-based predictions.
@@ -98,6 +117,8 @@ Naive Bayes
 A Naive Bayes classifier is also used as a second model for comparison.
 Using two different models allows the dashboard to compare their predictions and performance.
 ________________________________________
+
+
 🧹 Data Preprocessing
 The dataset is processed before being provided to the machine learning models.
 The preprocessing pipeline includes:
@@ -110,6 +131,8 @@ The preprocessing pipeline includes:
 7.	Applying one-hot encoding to categorical variables.
 8.	Aligning prediction features with the model's training feature structure.
 ________________________________________
+
+
 📂 Project Structure
 Heart-Disease-Project/
 │
@@ -131,6 +154,8 @@ analysis.py	Interactive Plotly charts and exploratory data analysis
 requirements.txt	Required Python libraries
 data/heart.csv	Heart disease dataset
 ________________________________________
+
+
 🛠️ Technologies Used
 Technology	Purpose
 Python	Core programming language
